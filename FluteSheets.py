@@ -30,9 +30,3 @@ sheet = {
     'rep'   :28,
     'per'   :29
 }
-
-cut = sheet['Re#']
-
-    
-
-print(cut)

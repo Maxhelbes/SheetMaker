@@ -1,5 +1,5 @@
 from PIL import Image
-from sheets import sheet
+from FluteSheets import sheet
 
 
 tabs = Image.open('flapplic2.png')
@@ -23,7 +23,7 @@ for i in range(1, len(music)):
 
 #baza.show()
 tip = '.png'
-way = 'Tabs/'
+way = ''
 name = way + music[0] + tip
 print(name)
 baza.save(name)

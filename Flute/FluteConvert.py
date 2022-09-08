@@ -1,12 +1,10 @@
 from PIL import Image
-from FluteSheets import sheet
-
+from Flute.FluteSheets import sheet
 
 tabs = Image.open('FluteResource.png')
 baza = Image.open('Empty.png')
 
 get = open('music.txt')
-
 music = get.readlines()
 
 for i in range(len(music)):

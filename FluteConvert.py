@@ -2,8 +2,8 @@ from PIL import Image
 from FluteSheets import sheet
 
 
-tabs = Image.open('flapplic2.png')
-baza = Image.open('etoBaza.png')
+tabs = Image.open('FluteResource.png')
+baza = Image.open('Empty.png')
 
 get = open('music.txt')
 
@@ -23,7 +23,7 @@ for i in range(1, len(music)):
 
 #baza.show()
 tip = '.png'
-way = ''
+way = 'Tabs/'
 name = way + music[0] + tip
 print(name)
 baza.save(name)

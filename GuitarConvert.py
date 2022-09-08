@@ -1,6 +1,6 @@
 from PIL import Image
 
-imageResources = Image.open('imageResources.png')
+imageResources = Image.open('GuitarResources.png')
 emptySpace = Image.open('emptySpace.png')
 
 inputText = open('inputText.txt')
